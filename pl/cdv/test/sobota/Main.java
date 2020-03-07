@@ -12,6 +12,7 @@ public class Main {
         myFunction();
         task1();
         task2();
+        task3();
     }
 
     private static void myFunction() {
@@ -51,7 +52,19 @@ public class Main {
 
     }
     private static void task3(){
-        Scanner scanner =new Scanner()
+        Scanner scanner = new Scanner(System.in);
+
+        int firstValue;
+        float secondValue;
+
+        System.out.println("Podaj pierwszą liczbę całkowitą: ");
+        firstValue = scanner.nextInt();
+        System.out.println("Podaj drugą liczbę  -zmiennoprzecinkową: ");
+        secondValue = scanner.nextFloat();
+
+        System.out.println(" Pierwszą liczba całkowitą to "+ firstValue);
+        System.out.println("Druga liczba zmienno przecinkowa "+secondValue);
+
 
     }
 }
